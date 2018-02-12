@@ -13,14 +13,21 @@
 - Open a new command prompt and run `npm install -g nativescript`
 - If you have any hard drive space left, download/install [NativeScript Sidekick](https://www.nativescript.org/nativescript-sidekick)
     - App Name: `NativeScript-Vue`
-    - Project Folder: <path>
-    - App ID: Auto
-    - Project Type: NativeScript + JavaScript
+    - Project Folder: `<path>`
+    - App ID: `Auto`
+    - Project Type: `NativeScript + JavaScript`
     - Select: `Nagivation Drawer`
     - Click: `Create App`
 - Add `NativeScript` extension to Visual Studio Code
 
- - tns build android --bundle
-    - tns build ios --bundle
-    - tns run android --bundle
-    - tns run ios --bundle
+
+
+
+## NativeScript Webpack plugin
+
+Bundle your project by passing --bundle flag to NativeScript CLI commands:
+
+- tns build android --bundle
+- tns build ios --bundle
+- tns run android --bundle
+- tns run ios --bundle
