@@ -1,6 +1,6 @@
 {
   "description": "NativeScript + Vue",
-  "license": "LICENSE",
+  "license": "app/LICENSE",
   "readme": "NativeScript + Vue",
   "repository": "https://github.com/teckel12/nativescript-vue",
   "nativescript": {
