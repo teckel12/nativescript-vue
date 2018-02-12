@@ -4,7 +4,10 @@
   "readme": "NativeScript + Vue",
   "repository": "https://github.com/teckel12/nativescript-vue",
   "nativescript": {
-    "id": "org.nativescript.nativescriptvue"
+    "id": "org.nativescript.nativescriptvue",
+    "tns-android": {
+      "version": "3.4.1"
+    }
   },
   "dependencies": {
     "nativescript-pro-ui": "^3.4.0",
@@ -23,7 +26,6 @@
     "extract-text-webpack-plugin": "~3.0.2",
     "lazy": "1.0.11",
     "nativescript-dev-android-snapshot": "^0.*.*",
-    "nativescript-dev-sass": "^1.3.5",
     "nativescript-dev-webpack": "^0.9.1",
     "nativescript-worker-loader": "^0.8.1",
     "raw-loader": "^0.5.1",
